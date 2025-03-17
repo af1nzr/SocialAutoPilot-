@@ -32,12 +32,13 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-git clone https://github.com/yourusername/SocialAutoPilot.git
+git clone https://github.com/af1nzr/SocialAutoPilot.git
 cd SocialAutoPilot
 
 python main.py
 
-Usage Guide
+USER GUIDE
+
 Launch main.py – Open the GUI interface.
 Select Platform – Choose between Instagram or Facebook.
 Enable Automation Features – Check the boxes for actions to automate.
@@ -51,10 +52,12 @@ TensorFlow Lite – Optional integration for AI-driven engagement
 Ethical Considerations & Disclaimer
 SocialAutoPilot is developed strictly for educational and research purposes. Automating social media interactions may violate platform policies. Users must exercise caution and ensure compliance with applicable terms of service. The author assumes no responsibility for misuse.
 
-Future Enhancements
+FUTURE ENGHANCEMENTS 
+
 AI-based engagement prediction – Suggests optimal engagement strategies.
 Cloud-based deployment – Run automation remotely.
 Machine Learning-based interaction patterns – Reduce detection risks.
+
 License
 This project is licensed under the MIT License.
 
