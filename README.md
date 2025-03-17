@@ -1,67 +1,78 @@
-# SocialAutoPilot-
-SocialAutoPilot is a Python-based automation tool for Instagram and Facebook. It features a PyQt-based GUI for easy task selection, enabling auto-liking, auto-commenting, auto-following, and auto-messaging. Built with Selenium, it ensures efficient engagement while maintaining execution limits for responsible automation.
+<h1 align="center">SocialAutoPilot</h1>
+<p align="center">
+    AI-powered automation tool for Instagram & Facebook
+</p>
 
-## Overview  
-SocialAutoPilot is a robust, AI-powered automation framework designed to streamline social media interactions on **Instagram and Facebook**. This tool leverages advanced **Python automation techniques**, combining **Selenium** for browser control and **PyQt** for an intuitive graphical interface.
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
+    <img src="https://img.shields.io/badge/Framework-PyQt5-orange.svg" alt="PyQt5">
+    <img src="https://img.shields.io/badge/Automation-Selenium-green.svg" alt="Selenium">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+</p>
 
-With **SocialAutoPilot**, users can automate engagement activities such as **liking posts, commenting, following users, and sending personalized messages**, all while maintaining execution limits to ensure compliance with platform policies.
+---
 
-## Key Features  
-- **Multi-Platform Support** – Automate Instagram and Facebook interactions effortlessly.  
-- **GUI-Based Control** – Built with PyQt, providing a seamless user experience.  
-- **Smart Auto-Liking & Commenting** – Engage with posts using predefined or dynamic comments.  
-- **Automated Following & Messaging** – Expand your network through intelligent automation.  
-- **Execution Rate Limiting** – Prevent excessive actions to reduce detection risks.  
-- **Customizable Interaction Rules** – Tailor engagement parameters based on your strategy.  
-- **Logging & Analytics** – Track automation activities for better optimization.  
+## **Overview**
+SocialAutoPilot is a Python-based automation tool designed to streamline social media interactions on Instagram and Facebook. It features a **PyQt-based GUI** for easy task selection and uses **Selenium** to automate engagement activities such as liking posts, commenting, following users, and sending personalized messages. Execution limits are implemented to ensure responsible automation.
 
-## Installation & Setup  
+---
 
-### Prerequisites  
-Ensure you have the following installed on your system:  
-- **Python 3.8+**  
-- **Google Chrome** (latest version)  
-- **Chrome WebDriver** (compatible with your Chrome version)  
+## **Key Features**
+- Multi-Platform Support – Automate interactions on Instagram and Facebook  
+- GUI-Based Control – Built with PyQt5 for an intuitive user experience  
+- Execution Rate Limiting – Prevent excessive actions and reduce detection risks  
+- Logging & Analytics – Track automation activities for better optimization  
 
-### Installation Steps  
+---
 
-#### 1. Clone the repository  
+## **Installation & Setup**
+### **Prerequisites**
+Ensure the following dependencies are installed:
+- Python 3.8+
+- Google Chrome (latest version)
+- Chrome WebDriver (compatible with the installed Chrome version)
+
+### **Installation Steps**
 ```sh
+
+# Clone the repository
+git clone https://github.com/yourusername/SocialAutoPilot.git
+cd SocialAutoPilot
+
+# Set up a virtual environment
 
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+# Install dependencies
+
 pip install -r requirements.txt
 
-git clone https://github.com/af1nzr/SocialAutoPilot.git
-cd SocialAutoPilot
+# Run the application
 
 python main.py
 
-USER GUIDE
+Usage Guide
 
-Launch main.py – Open the GUI interface.
-Select Platform – Choose between Instagram or Facebook.
-Enable Automation Features – Check the boxes for actions to automate.
-Start Automation – Click Submit, and SocialAutoPilot takes over.
+Launch the GUI by running main.py
+Select the target platform (Instagram or Facebook)
+Enable desired automation features
+Click Submit to start automation
 Technologies & Frameworks Used
 Python – Core programming language
 Selenium – Browser automation for web interaction
-PyQt – GUI framework for user-friendly experience
+PyQt5 – GUI framework for a user-friendly experience
 SQLite – Local database for logging interactions
-TensorFlow Lite – Optional integration for AI-driven engagement
+TensorFlow Lite – Optional AI-driven engagement
 Ethical Considerations & Disclaimer
-SocialAutoPilot is developed strictly for educational and research purposes. Automating social media interactions may violate platform policies. Users must exercise caution and ensure compliance with applicable terms of service. The author assumes no responsibility for misuse.
+SocialAutoPilot is intended strictly for educational and research purposes. Automating social media interactions may violate platform policies. Users are responsible for ensuring compliance with the applicable terms of service. The author assumes no responsibility for misuse.
 
-FUTURE ENGHANCEMENTS 
+Future Enhancements
 
-AI-based engagement prediction – Suggests optimal engagement strategies.
-Cloud-based deployment – Run automation remotely.
-Machine Learning-based interaction patterns – Reduce detection risks.
+AI-based engagement prediction for optimized automation strategies
+Cloud-based deployment for remote automation
+Machine learning-based interaction patterns to reduce detection risks
 
 License
-This project is licensed under the MIT License.
 
-
-This is a **clean, professional, and structured** `README.md` file, formatted correctly in Markdown. You can now add this to your GitHub repository! 🚀 Let me know if you need any changes.
-
-
+This project is licensed under the MIT License. See LICENSE.md for details.
