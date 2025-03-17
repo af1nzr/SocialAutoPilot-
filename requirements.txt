@@ -1,0 +1,8 @@
+ 
+PyQt6
+selenium
+playwright
+tweepy
+schedule
+sqlite3
+requests
