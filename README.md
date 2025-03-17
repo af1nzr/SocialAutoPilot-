@@ -36,7 +36,7 @@ Ensure the following dependencies are installed:
 ```sh
 
 # Clone the repository
-git clone https://github.com/yourusername/SocialAutoPilot.git
+git clone https://github.com/af1nzr/SocialAutoPilot.git
 cd SocialAutoPilot
 
 # Set up a virtual environment
